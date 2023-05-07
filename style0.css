@@ -1,0 +1,461 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes slideinleft {
+    from {
+     transform: translateX(-300px);
+    }
+    to {
+   transform: translateX(0);
+    }
+}
+.slideinleft{
+    animation: slideinleft 2s ease both;
+}
+
+@keyframes slideinright {
+    from {
+     transform: translateX(300px);
+    }
+    to {
+      transform: translateX(0);
+    }
+}
+.slideinright{
+    animation: slideinright 2s ease both;
+}
+
+
+
+
+/* ------------------------------------------navbar---------------------------------- */
+
+
+
+
+.section-1 {
+    background-image: url(/images/image.png);
+    width: 100%;
+}
+
+.btn-1 {
+    background-color: transparent;
+    padding: 10px 15px;
+    color: white;
+    border: 2px solid white;
+}
+
+#toggle-btn {
+    outline: none;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+
+/* ------------------------------------------section1---------------------------------- */
+
+
+#exampleFormControlInput1 {
+    border-radius: 0;
+    padding-top: 40px;
+    border-bottom: 1px solid black;
+}
+
+.text-2 {
+    background-color: #ff9b51;
+    color: white;
+    padding: 15px 0;
+    cursor: pointer;
+}
+
+@media(max-width:980px) {
+    .section-1 .text-1 {
+        font-size: 12px;
+    }
+}
+
+@media(max-width:768px) {
+    .section-1 .part-1 {
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+/* ------------------------------------------section2---------------------------------- */
+
+
+.section2 i {
+    font-size: 40px;
+    padding: 35px 0;
+    color: #cccccc;
+    cursor: pointer;
+}
+
+.section2 p {
+    color: #cccccc;
+}
+
+@media(max-width:992px) {
+    .section2 p {
+        font-size: 12px;
+    }
+}
+
+@media(max-width:768px) {
+    .part-2 i {
+        font-size: 23px;
+    }
+}
+
+
+
+
+/* ------------------------------------------section3---------------------------------- */
+
+
+
+.section-3 {
+    background-color: #f5f5f5;
+}
+
+.part-3 p {
+    margin: 1px;
+    padding: 35px 10px;
+    color: white;
+    cursor: pointer;
+    background-color: #333333;
+}
+
+.part-3 p:hover {
+    background-color: #ff9b51;
+}
+
+.part-4 p {
+    color: #cccccc;
+}
+
+.btn-2 {
+    padding: 8px 18px;
+    color: white;
+    background-color: #333333;
+    border-radius: 10px;
+}
+
+.btn-2:hover {
+    background-color: #ff9b51;
+    border: 2px solid #ff9b51;
+}
+
+@media(max-width:1200px) {
+    .part-3 p {
+        font-size: 8px;
+        padding: 35px 6px
+    }
+}
+
+@media(max-width:992px) {
+    .part-4 p {
+        font-size: 12px;
+    }
+
+    .part-4 h4 {
+        font-size: 19px;
+    }
+}
+
+@media(max-width:767px) {
+    .part-3 p {
+        padding: 10px 32px;
+    }
+}
+
+
+
+
+/* ------------------------------------------section4---------------------------------- */
+
+
+
+.part-5 span {
+    border-bottom: 2px solid #ff9b51;
+}
+
+.part-5 .text {
+    color: #cccccc;
+}
+
+.part-5 .icon-link {
+    color: #ff9b51;
+    font-size: 35px;
+    padding: 10px;
+    border: 2px solid #ff9b51;
+    border-radius: 50px;
+}
+
+@media(max-width:992px) {
+
+    .part-5 p {
+        font-size: 10px;
+    }
+
+    .part-5 .icon-link {
+
+        font-size: 20px;
+        padding: 8px;
+    }
+}
+
+
+
+/* ------------------------------------------section5---------------------------------- */
+
+
+.section-5 {
+    background-color: #f5f5f5;
+}
+
+.part-6 p {
+    color: #cccccc;
+}
+
+.part-6 span {
+    border-bottom: 2px solid #ff9b51;
+}
+
+@media(max-width:992px) {
+    .part-6 p {
+        font-size: 12px;
+    }
+}
+
+
+/* ------------------------------------------section6---------------------------------- */
+
+
+.part-7 span {
+    border-bottom: 2px solid #ff9b51;
+}
+
+.part-8 i {
+    font-size: 22px;
+    color: #ff9b51;
+    border: 2px solid #ff9b51;
+    border-radius: 70px;
+    padding: 20px;
+}
+
+.part-8 p {
+    color: #cccccc;
+}
+
+.part-7 p {
+    color: #cccccc;
+}
+
+@media(max-width:1405px) {
+    .part-8 p {
+        font-size: 12px;
+    }
+}
+
+@media(max-width:1205px) {
+    .part-8 p {
+        font-size: 10px;
+    }
+}
+
+@media(max-width:1000px) {
+    .part-8 p {
+        font-size: 9px;
+    }
+
+    .part-8 h3 {
+        font-size: 15px;
+    }
+}
+
+
+
+
+/* ------------------------------------------section7---------------------------------- */
+
+
+
+
+.section-7 {
+    background-color: #f5f5f5;
+}
+
+.part-9 span {
+    border-bottom: 2px solid #ff9b51;
+}
+
+.part-9 p {
+    color: #cccccc;
+}
+
+.part-10 {
+    color: white;
+    background-color: #333333;
+    border-bottom: 15px solid #ff9b51;
+}
+
+.part-10 h3 span {
+    font-size: 60px;
+}
+
+.part-10 h4 {
+    border-bottom: 2px solid #cccccc;
+}
+
+.bg-color {
+    background-color: #ff9b51;
+}
+
+
+
+/* -- ----------------------------------------section8---------------------------------------------- */
+
+
+.part-11 h3 span {
+    border-bottom: 2px solid #ff9b51;
+}
+
+.part-11 .text-4 {
+    color: #cccccc;
+}
+
+.part-12 .text-3 {
+    font-size: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.part-13 img {
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.part-14 .text-5 {
+    font-size: 15px;
+    color: black;
+}
+
+.part-14 p {
+    font-size: 10px;
+    color: #cccccc;
+}
+
+
+
+
+/* ------------------------------------------section9---------------------------------- */
+
+
+
+.section-9 {
+    background-image: url(/images/u25_state0.png);
+}
+
+.part-15 h2 {
+    color: white;
+}
+
+.part-15 span {
+    border-bottom: 2px solid #ff9b51;
+}
+
+.part-15 p {
+    color: #cccccc;
+}
+
+.part-15 .btn-3 {
+    padding: 5px 15px;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+}
+
+
+
+
+/* ------------------------------------------section10---------------------------------- */
+
+
+
+.part-16 span {
+    border-bottom: 2px solid #ff9b51;
+}
+
+.part-16 p {
+    color: #cccccc;
+}
+
+.part-17 #input-btn {
+    padding: 20px 5px;
+    width: 100%;
+    margin: 5px 0;
+    border: 0;
+    border-bottom: 2px solid #cccccc;
+}
+
+.part-17 #input-btn-1 {
+    height: 220px;
+    width: 100%;
+    margin: 5px 0;
+    border: 0;
+    border-bottom: 2px solid #cccccc;
+}
+
+#input-btn::placeholder {
+    color: #cccccc;
+}
+
+#input-btn-1::placeholder {
+    color: #cccccc;
+    float: left;
+}
+
+.part-18 .btn-4 {
+    padding: 8px 15px;
+    color: white;
+    background-color: #333333;
+    border: 2px solid #333333;
+    border-radius: 5px;
+}
+
+.part-18 .btn-4:hover {
+    background-color: #ff9b51;
+    border: #ff9b51;
+}
+
+
+
+
+/* ------------------------------------------footer---------------------------------- */
+
+
+
+footer {
+    background-color: black;
+}
+
+.part-19 i {
+    font-size: 25px;
+    color: #cccccc;
+    margin: 5px 12px;
+    cursor: pointer;
+}
+
+.part-19 p {
+    font-size: 12px;
+    color: #cccccc;
+    padding-top: 10px;
+}
